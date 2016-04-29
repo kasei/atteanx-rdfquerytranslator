@@ -1,4 +1,4 @@
-bin/attean_dbi
+.travis.yml
 Changes
 inc/Module/Install.pm
 inc/Module/Install/AuthorTests.pm
@@ -11,18 +11,13 @@ inc/Module/Install/Scripts.pm
 inc/Module/Install/Share.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-lib/AtteanX/Store/DBI.pm
+lib/AtteanX/RDFQueryTranslator.pm
 LICENSE
 MANIFEST			This list of files
 META.yml
 meta/changes.ttl
 README.md
-share/database-schema/mysql-create.sql
-share/database-schema/mysql-drop.sql
-share/database-schema/postgresql-create.sql
-share/database-schema/postgresql-drop.sql
-share/database-schema/sqlite-create.sql
-share/database-schema/sqlite-drop.sql
-t/store-dbi-mysql.t
+t/00.load.t
+t/translate.t
 xt/pod-coverage.t
 xt/pod.t
