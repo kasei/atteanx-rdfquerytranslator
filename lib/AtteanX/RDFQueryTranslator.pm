@@ -30,12 +30,14 @@ L<Attean::API::Algebra> tree.
 
 =cut
 
-package AtteanX::RDFQueryTranslator 0.099_01 {
+package AtteanX::RDFQueryTranslator {
 	use v5.14;
 	use warnings;
 	use Moo;
 	use Data::Dumper;
 	use namespace::clean;
+	
+	our $VERSION	= '0.099_01';
 	
 	use RDF::Query;
 	use Attean;
