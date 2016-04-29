@@ -27,3 +27,5 @@ subtest 'Project(Filter(BGP))' => sub {
 	isa_ok($e, 'Attean::FunctionExpression');
 	is($e->operator, 'ISLITERAL');
 };
+
+done_testing();
