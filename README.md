@@ -1,7 +1,7 @@
-AtteanX-Store-DBI
+AtteanX-RDFQueryTranslator
 =================
 
-An Attean quadstore implementation based on relational databases.
+Translate RDF::Query objects to Attean::API::Algebra objects.
 
 Getting Help
 ------------
