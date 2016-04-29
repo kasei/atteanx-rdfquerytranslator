@@ -7,7 +7,7 @@ AtteanX::RDFQueryTranslator - Translate RDF::Query objects to Attean::API::Algeb
 
 =head1 VERSION
 
-This document describes AtteanX::RDFQueryTranslator version 0.099_01
+This document describes AtteanX::RDFQueryTranslator version 0.099_02
 
 =head1 DESCRIPTION
 
@@ -37,7 +37,7 @@ package AtteanX::RDFQueryTranslator {
 	use Data::Dumper;
 	use namespace::clean;
 	
-	our $VERSION	= '0.099_01';
+	our $VERSION	= '0.099_02';
 	
 	use RDF::Query;
 	use Attean;
