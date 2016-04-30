@@ -17,7 +17,7 @@ test_requires	'Test::LWP::UserAgent'		=> 0;
 
 perl_version	'5.014';
 
-requires		'Attean'					=> 0.014;
+requires		'Attean'					=> 0.016;
 requires		'RDF::Query'				=> 2.910;
 
 resources(
